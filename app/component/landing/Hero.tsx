@@ -1,7 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Check, ShieldCheck } from "lucide-react";
+import {
+  ArrowRight,
+  Check,
+  FileWarning,
+  FileWarningIcon,
+  ShieldCheck,
+} from "lucide-react";
 import { Badge } from "../ui/Badge";
 import { Button } from "../ui/Button";
 import { Container } from "../ui/Container";
@@ -16,9 +22,14 @@ export function Hero() {
       <Container className="grid items-center gap-16 py-10 sm:py-20 lg:grid-cols-[1.05fr_0.95fr]">
         <motion.div variants={stagger} initial="hidden" animate="show">
           <motion.div variants={fadeUp}>
-            <Badge tone="sage">
+            {/* <Badge tone="sage">
               <ShieldCheck className="h-3.5 w-3.5" />
               Private and free
+            </Badge> */}
+
+            <Badge className="text-red-500">
+              <FileWarningIcon className="h-3.5 w-3.5" />
+              Early preview, sample content only, please
             </Badge>
           </motion.div>
 
