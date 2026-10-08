@@ -1,4 +1,4 @@
-import type { PlanWizardState } from "@/hooks/usePlanWizard";
+import type { PlanWizardState } from "@/app/hooks/usePlanWizard";
 import { AllergyStep } from "./AllergyStep";
 import { BudgetStep } from "./BudgetStep";
 import { ResultView } from "./ResultView";
