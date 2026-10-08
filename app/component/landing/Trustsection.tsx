@@ -35,16 +35,16 @@ export function TrustSection() {
         </Reveal>
 
         <Reveal delay={0.15}>
-          <Card className="border-sage-100 bg-sage-50 p-8 sm:p-10">
+          <Card className="border-sage-100 bg-sage-50 p-6 sm:p-8">
             <IconBox icon={HeartHandshake} tone="sage" className="bg-white" />
-            <h3 className="mt-6 text-2xl font-bold text-ink">
+            <h3 className="mt-2 text-2xl font-bold text-ink">
               Know the danger signs
             </h3>
-            <p className="mt-3 leading-relaxed text-muted">
+            <p className="mt-3 leading-relaxed font-semibold text-muted">
               Some symptoms need a clinician right away. Read the signs now so
               you know what to look for.
             </p>
-            <Button href="/urgent-care" variant="secondary" className="mt-6">
+            <Button href="/urgent-care" variant="secondary" className="mt-4">
               See the danger signs
             </Button>
           </Card>

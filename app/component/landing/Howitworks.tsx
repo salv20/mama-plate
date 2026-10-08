@@ -25,7 +25,7 @@ const steps = [
 
 export function HowItWorks() {
   return (
-    <section id="how-it-works" className="scroll-mt-20 py-20 sm:py-24">
+    <section id="how-it-works" className="scroll-mt-20 py-10 sm:py-14 ">
       <Container>
         <Reveal>
           <SectionHeading
@@ -35,18 +35,20 @@ export function HowItWorks() {
           />
         </Reveal>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-3">
+        <div className="mt-10 grid gap-6 md:grid-cols-3">
           {steps.map((step, index) => (
             <Reveal key={step.title} delay={index * 0.1}>
               <Card className="h-full transition duration-300 hover:-translate-y-1 hover:shadow-md">
                 <IconBox icon={step.icon} />
-                <p className="mt-6 text-sm font-bold text-blush-600">
+                <p className="mt-4 text-sm font-bold text-blush-600">
                   Step {index + 1}
                 </p>
                 <h3 className="mt-1 text-xl font-bold text-ink">
                   {step.title}
                 </h3>
-                <p className="mt-2 leading-relaxed text-muted">{step.text}</p>
+                <p className="mt-1 leading-relaxed text-muted font-semibold">
+                  {step.text}
+                </p>
               </Card>
             </Reveal>
           ))}

@@ -47,17 +47,19 @@ export function Benefits() {
           />
         </Reveal>
 
-        <div className="grid gap-x-8 gap-y-10 sm:grid-cols-2">
+        <div className="grid gap-x-8  gap-y-10 sm:grid-cols-2">
           {benefits.map((item, index) => (
             <Reveal
               key={item.title}
               delay={index * 0.08}
-              className="flex gap-4"
+              className="flex gap-4 "
             >
               <IconBox icon={item.icon} tone={item.tone} />
               <div>
                 <h3 className="font-bold text-ink">{item.title}</h3>
-                <p className="mt-1 leading-relaxed text-muted">{item.text}</p>
+                <p className="mt-1 leading-relaxed text-muted font-semibold">
+                  {item.text}
+                </p>
               </div>
             </Reveal>
           ))}

@@ -13,7 +13,7 @@ const points = ["Free to use", "No sign up", "Nothing you enter is saved"];
 export function Hero() {
   return (
     <section className="overflow-hidden">
-      <Container className="grid items-center gap-16 py-14 sm:py-20 lg:grid-cols-[1.05fr_0.95fr] lg:py-28">
+      <Container className="grid items-center gap-16 py-10 sm:py-20 lg:grid-cols-[1.05fr_0.95fr]">
         <motion.div variants={stagger} initial="hidden" animate="show">
           <motion.div variants={fadeUp}>
             <Badge tone="sage">
@@ -24,20 +24,20 @@ export function Hero() {
 
           <motion.h1
             variants={fadeUp}
-            className="mt-6 text-4xl font-bold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl"
+            className="mt-4 text-2xl font-bold leading-[1.1] tracking-tight sm:text-4xl"
           >
             Meal ideas for a healthy pregnancy, planned around you.
           </motion.h1>
 
           <motion.p
             variants={fadeUp}
-            className="mt-5 max-w-xl text-lg leading-relaxed text-muted"
+            className="mt-4 max-w-xl text-lg leading-relaxed text-muted"
           >
             Tell us your stage, any allergies and what you can spend. Get a
             simple day of familiar foods and a clear list of what to avoid.
           </motion.p>
 
-          <motion.div variants={fadeUp} className="mt-8 flex flex-wrap gap-3">
+          <motion.div variants={fadeUp} className="mt-6 flex flex-wrap gap-3">
             <Button href="/plan" size="lg">
               Plan my day
               <ArrowRight className="h-4 w-4" />

@@ -22,10 +22,10 @@ export function CtaBanner() {
               <h2 className="mx-auto max-w-xl text-3xl font-bold tracking-tight sm:text-4xl">
                 Ready to plan today&apos;s meals?
               </h2>
-              <p className="mx-auto mt-4 max-w-md text-lg text-blush-100">
+              <p className="mx-auto mt-2 italic font-semibold max-w-md text-lg text-blush-100">
                 It takes about a minute. Nothing you enter is saved.
               </p>
-              <Button href="/plan" variant="inverse" size="lg" className="mt-8">
+              <Button href="/plan" variant="inverse" size="lg" className="mt-6">
                 Plan my day
                 <ArrowRight className="h-4 w-4" />
               </Button>
