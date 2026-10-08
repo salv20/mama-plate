@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { cn } from "@/app/lib/cn";
+import type { ButtonHTMLAttributes, ReactNode } from "react";
 
 const base =
   "inline-flex items-center justify-center gap-2 rounded-full font-semibold transition duration-200 ease-out active:scale-[0.98] disabled:pointer-events-none disabled:opacity-50";
@@ -18,6 +19,13 @@ const sizes = {
   lg: "h-12 px-7 text-base",
 };
 
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
+  variant?: keyof typeof variants;
+  size?: keyof typeof sizes;
+  href?: string;
+  children: ReactNode;
+};
+
 export function Button({
   variant = "primary",
   size = "md",
@@ -25,7 +33,7 @@ export function Button({
   className,
   children,
   ...rest
-}) {
+}: ButtonProps) {
   const classes = cn(base, variants[variant], sizes[size], className);
 
   if (href) {
