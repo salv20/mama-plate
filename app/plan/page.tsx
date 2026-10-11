@@ -6,7 +6,7 @@ export const metadata: Metadata = { title: "Plan my day" };
 
 export default function PlanPage() {
   return (
-    <Container className="py-10 sm:py-16">
+    <Container className="py-10 sm:py-14">
       <PlanWizard />
     </Container>
   );

@@ -15,7 +15,7 @@ export const metadata: Metadata = { title: "Privacy" };
 
 export default function PrivacyPage() {
   return (
-    <Container className="py-14 sm:py-20">
+    <Container className="py-10 sm:py-14">
       <div className="mx-auto max-w-3xl">
         <PageHeader
           eyebrow="Privacy"

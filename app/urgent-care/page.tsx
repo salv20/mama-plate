@@ -10,7 +10,7 @@ export const metadata: Metadata = { title: "When to see a clinician urgently" };
 
 export default function UrgentCarePage() {
   return (
-    <Container className="py-14 sm:py-20">
+    <Container className="py-10 sm:py-14">
       <div className="mx-auto max-w-3xl">
         <PageHeader
           eyebrow="Important"

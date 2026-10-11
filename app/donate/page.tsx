@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function DonatePage() {
   return (
-    <main className="bg-slate-50 py-12 ">
+    <main className="bg-slate-50 py-10 sm:py-14">
       <Container>
         <div className="mx-auto max-w-3xl text-center">
           <span className="inline-block rounded-full bg-blush-100 px-3.5 py-1 text-xs font-semibold text-blush-700">
