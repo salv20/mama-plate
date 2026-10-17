@@ -1,7 +1,7 @@
 import { Ban, TriangleAlert } from "lucide-react";
 import { Card } from "../ui/Card";
 import { IconBox } from "../ui/IconBox";
-import { MOCK_AVOID } from "@/app/lib/mock-plan";
+import type { AvoidItem } from "@/app/lib/meal-planner";
 
 function AvoidList({
   title,
@@ -10,7 +10,7 @@ function AvoidList({
   tone,
 }: {
   title: string;
-  items: string[];
+  items: AvoidItem[];
   icon: typeof Ban;
   tone: "blush" | "sage";
 }) {
@@ -22,9 +22,9 @@ function AvoidList({
       </div>
       <ul className="mt-4 space-y-3 text-sm leading-relaxed text-muted">
         {items.map((item) => (
-          <li key={item} className="flex gap-3">
+          <li key={item.id} className="flex gap-3">
             <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blush-500" />
-            {item}
+            {item.text}
           </li>
         ))}
       </ul>
@@ -32,21 +32,29 @@ function AvoidList({
   );
 }
 
-export function AvoidPanel() {
+export function AvoidPanel({ items }: { items: AvoidItem[] }) {
+  const avoid = items.filter((item) => item.group === "AVOID");
+  const limit = items.filter((item) => item.group === "LIMIT");
+  if (items.length === 0) return null;
+
   return (
     <div className="grid gap-4 sm:grid-cols-2">
-      <AvoidList
-        title="Foods to avoid"
-        items={MOCK_AVOID.avoid}
-        icon={Ban}
-        tone="blush"
-      />
-      <AvoidList
-        title="Foods to limit"
-        items={MOCK_AVOID.limit}
-        icon={TriangleAlert}
-        tone="sage"
-      />
+      {avoid.length > 0 && (
+        <AvoidList
+          title="Foods to avoid"
+          items={avoid}
+          icon={Ban}
+          tone="blush"
+        />
+      )}
+      {limit.length > 0 && (
+        <AvoidList
+          title="Foods to limit"
+          items={limit}
+          icon={TriangleAlert}
+          tone="sage"
+        />
+      )}
     </div>
   );
 }

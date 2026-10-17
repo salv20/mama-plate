@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Container } from "../ui/Container";
-import { Logo } from "@/app/Logo";
+import { Logo } from "@/app/component/layout/Logo";
 import { site } from "@/app/lib/site";
 
 const quickLinks = [

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { PlanWizard } from "../component/plan/Container";
+import { PlanWizard } from "../component/plan/PlanWizard";
 import { Container } from "../component/ui/Container";
 
 export const metadata: Metadata = { title: "Plan my day" };

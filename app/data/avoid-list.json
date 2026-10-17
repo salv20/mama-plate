@@ -1,0 +1,65 @@
+[
+  {
+    "id": "avoid-alcohol",
+    "group": "AVOID",
+    "text": "Alcohol, including locally brewed drinks.",
+    "sourceId": null,
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "status": "DRAFT"
+  },
+  {
+    "id": "avoid-raw-animal",
+    "group": "AVOID",
+    "text": "Raw or undercooked meat, fish and eggs.",
+    "sourceId": null,
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "status": "DRAFT"
+  },
+  {
+    "id": "avoid-unpasteurised-milk",
+    "group": "AVOID",
+    "text": "Milk that is not pasteurised or well boiled.",
+    "sourceId": null,
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "status": "DRAFT"
+  },
+  {
+    "id": "avoid-unwashed-produce",
+    "group": "AVOID",
+    "text": "Fruits and vegetables that have not been washed well.",
+    "sourceId": null,
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "status": "DRAFT"
+  },
+  {
+    "id": "limit-caffeine",
+    "group": "LIMIT",
+    "text": "Caffeine from tea, coffee, cola and energy drinks. Ask your clinician how much is safe for you.",
+    "sourceId": null,
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "status": "DRAFT"
+  },
+  {
+    "id": "limit-high-mercury-fish",
+    "group": "LIMIT",
+    "text": "Large predatory fish that can be high in mercury. Ask your clinician which fish to choose.",
+    "sourceId": null,
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "status": "DRAFT"
+  },
+  {
+    "id": "limit-herbal-mixtures",
+    "group": "LIMIT",
+    "text": "Herbal mixtures and traditional concoctions. Check with your clinician before taking any.",
+    "sourceId": null,
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "status": "DRAFT"
+  }
+]

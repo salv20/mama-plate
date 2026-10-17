@@ -1,5 +1,4 @@
 import { Badge } from "../ui/Badge";
-import { InlineNote } from "../ui/InlineNote";
 import type { PlanForm } from "@/app/lib/plan-form";
 import { allergyLabel, budgetLabel, stageLabel } from "@/app/lib/plan-options";
 
@@ -18,14 +17,6 @@ export function ResultHeader({ form }: { form: PlanForm }) {
           </Badge>
         ))}
       </div>
-      <InlineNote show={form.otherAllergy}>
-        You mentioned another allergy. We cannot check it, so please ask your
-        clinician before using any meal.
-      </InlineNote>
-      <InlineNote show={form.stage === "UNKNOWN"}>
-        Because you are not sure of your stage, we show meals that suit every
-        stage.
-      </InlineNote>
     </div>
   );
 }

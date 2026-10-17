@@ -4,7 +4,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import { RefreshCw } from "lucide-react";
 import { Badge } from "../ui/Badge";
 import { Card } from "../ui/Card";
-import type { MockMeal } from "@/app/lib/mock-plan";
+import type { Meal } from "@/app/lib/meal-planner/types";
+import { TAG_LABELS } from "@/app/lib/plan-options";
 
 export function MealCard({
   label,
@@ -12,7 +13,7 @@ export function MealCard({
   onSwap,
 }: {
   label: string;
-  meal: MockMeal;
+  meal: Meal;
   onSwap: () => void;
 }) {
   return (
@@ -50,7 +51,7 @@ export function MealCard({
           <div className="mt-4 flex flex-wrap gap-2">
             {meal.tags.map((tag) => (
               <Badge key={tag} tone="sage">
-                {tag}
+                {TAG_LABELS[tag]}
               </Badge>
             ))}
           </div>

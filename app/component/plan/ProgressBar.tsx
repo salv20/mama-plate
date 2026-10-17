@@ -2,13 +2,7 @@
 
 import { motion } from "framer-motion";
 
-export function ProgressBar({
-  current,
-  total,
-}: {
-  current: number;
-  total: number;
-}) {
+export function ProgressBar({ current, total }: { current: number; total: number }) {
   return (
     <div>
       <div className="flex justify-between text-xs font-semibold text-muted">

@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { Container } from "../ui/Container";
 import { Button } from "../ui/Button";
-import { Logo } from "@/app/Logo";
-import { MobileMenu } from "@/app/MobileMenu";
+import { Logo } from "@/app/component/layout/Logo";
+import { MobileMenu } from "./MobileMenu";
 import { site } from "@/app/lib/site";
 
 const linkStyle =

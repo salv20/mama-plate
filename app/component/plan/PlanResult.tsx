@@ -1,26 +1,40 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
+import { Shuffle } from "lucide-react";
 import { Button } from "../ui/Button";
-import { DISCLAIMER } from "@/app/lib/safety";
 import { fadeUp, stagger } from "@/app/lib/motion";
 import {
-  MOCK_PLAN,
-  SLOTS,
-  SLOT_LABELS,
-  type SlotKey,
-} from "@/app/lib/mock-plan";
+  DISCLAIMER,
+  formatPlanAsText,
+  generateDayPlan,
+  getAvoidItems,
+  getMeals,
+  swapMeal,
+} from "@/app/lib/meal-planner";
+import {
+  PLAN_SLOTS,
+  PLAN_SLOT_LABELS,
+  type Meal,
+  type PlanOk,
+  type PlanSlot,
+  type PlannerInput,
+} from "@/app/lib/meal-planner/types";
 import type { PlanForm } from "@/app/lib/plan-form";
-import { planToText } from "@/app/lib/plan-text";
+import { newSeed, toPlannerInput } from "@/app/lib/plan-input";
 import { AvoidPanel } from "./AvoidPanel";
 import { CopyButton } from "./CopyButton";
+import { EmptySlotCard } from "./EmptySlotCard";
 import { MealCard } from "./MealCard";
+import { PlanNotices } from "./PlanNotices";
 import { ResultHeader } from "./ResultHeader";
 
-const initialPicks = Object.fromEntries(
-  SLOTS.map((slot) => [slot, 0]),
-) as Record<SlotKey, number>;
+function buildPlan(input: PlannerInput, meals: Meal[]): PlanOk | null {
+  const result = generateDayPlan(input, meals, { seed: newSeed() });
+  return result.status === "BLOCKED" ? null : result;
+}
 
 export function PlanResult({
   form,
@@ -29,52 +43,83 @@ export function PlanResult({
   form: PlanForm;
   onReset: () => void;
 }) {
-  const [picks, setPicks] = useState(initialPicks);
+  const input = useMemo(() => toPlannerInput(form), [form]);
+  const meals = useMemo(() => getMeals(), []);
+  const avoidItems = useMemo(() => getAvoidItems(), []);
 
-  const items = SLOTS.map((slot) => {
-    const options = MOCK_PLAN[slot];
-    return { slot, meal: options[picks[slot] % options.length] };
-  });
+  const [plan, setPlan] = useState<PlanOk | null>(() =>
+    buildPlan(input, meals),
+  );
+  const [round, setRound] = useState(0);
 
-  const swap = (slot: SlotKey) =>
-    setPicks((p) => ({ ...p, [slot]: p[slot] + 1 }));
+  if (!plan) return null;
+
+  const swap = (slot: PlanSlot) =>
+    setPlan((current) =>
+      current
+        ? swapMeal(current, slot, input, meals, { seed: newSeed() })
+        : current,
+    );
+
+  const shuffleAll = () => {
+    setPlan(buildPlan(input, meals));
+    setRound((r) => r + 1);
+  };
 
   return (
     <div>
       <ResultHeader form={form} />
+      <PlanNotices plan={plan} noContent={meals.length === 0} />
 
       <motion.ul
+        key={round}
         variants={stagger}
         initial="hidden"
         animate="show"
         className="mt-8 space-y-4"
       >
-        {items.map(({ slot, meal }) => (
-          <motion.li key={slot} variants={fadeUp}>
-            <MealCard
-              label={SLOT_LABELS[slot]}
-              meal={meal}
-              onSwap={() => swap(slot)}
-            />
-          </motion.li>
-        ))}
+        {PLAN_SLOTS.map((slot) => {
+          const item = plan.items.find((i) => i.slot === slot);
+          return (
+            <motion.li key={slot} variants={fadeUp}>
+              {item ? (
+                <MealCard
+                  label={PLAN_SLOT_LABELS[slot]}
+                  meal={item.meal}
+                  onSwap={() => swap(slot)}
+                />
+              ) : (
+                <EmptySlotCard label={PLAN_SLOT_LABELS[slot]} />
+              )}
+            </motion.li>
+          );
+        })}
       </motion.ul>
 
       <div className="mt-10">
-        <AvoidPanel />
+        <AvoidPanel items={avoidItems} />
       </div>
 
       <div className="mt-10 flex flex-wrap items-center gap-3">
-        <CopyButton text={planToText(items)} />
-        <Button variant="secondary" size="lg" onClick={onReset}>
-          Start over
+        <CopyButton text={formatPlanAsText(plan, avoidItems)} />
+        <Button variant="secondary" size="lg" onClick={shuffleAll}>
+          <Shuffle className="h-4 w-4" />
+          New ideas
         </Button>
-        <Button variant="ghost" size="lg" href="/urgent-care">
-          When to see a clinician urgently
+        <Button variant="ghost" size="lg" onClick={onReset}>
+          Start over
         </Button>
       </div>
 
-      <p className="mt-8 text-xs leading-relaxed text-muted">{DISCLAIMER}</p>
+      <p className="mt-6 text-sm">
+        <Link
+          href="/urgent-care"
+          className="font-semibold text-blush-700 underline-offset-4 hover:underline"
+        >
+          When to see a clinician urgently
+        </Link>
+      </p>
+      <p className="mt-6 text-xs leading-relaxed text-muted">{DISCLAIMER}</p>
     </div>
   );
 }

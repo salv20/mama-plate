@@ -23,7 +23,7 @@ export default function PrivacyPage() {
           description={`Last updated ${PRIVACY_UPDATED}.`}
         />
 
-        <Card className="mt-10 border-sage-100 bg-sage-50">
+        <Card className="mt-6 border-sage-100 bg-sage-50">
           <h2 className="text-xl font-bold">The short version</h2>
           <ul className="mt-4 space-y-3">
             {PRIVACY_SUMMARY.map((item) => (
@@ -37,11 +37,11 @@ export default function PrivacyPage() {
           </ul>
         </Card>
 
-        <div className="mt-6 divide-y divide-line">
+        <div className="mt-4 divide-y divide-line">
           {PRIVACY_SECTIONS.map((section) => (
             <LegalSection key={section.title} {...section} />
           ))}
-          <section className="py-8">
+          <section className="py-6">
             <h2 className="text-xl font-bold text-ink">Contact us</h2>
             <p className="mt-3 leading-relaxed text-muted">
               Questions about this page? Email{" "}

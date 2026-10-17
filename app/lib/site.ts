@@ -5,7 +5,7 @@ export const site = {
   description:
     "Get a simple day of affordable meals for pregnancy, planned around your stage, allergies and budget.",
   // Placeholder. Replace with a real address before launch.
-  contactEmail: "salvationamoke@gmail.com",
+  contactEmail: "hello@example.com",
   nav: [
     { label: "How it works", href: "/#how-it-works" },
     { label: "Why it helps", href: "/#benefits" },

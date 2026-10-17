@@ -4,8 +4,8 @@ import { useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import { Button } from "./component/ui/Button";
-import { site } from "./lib/site";
+import { Button } from "../ui/Button";
+import { site } from "@/app/lib/site";
 
 export function MobileMenu() {
   const [open, setOpen] = useState(false);

@@ -1,15 +1,9 @@
+import type { BudgetTier, Exclusion, TrimesterInput } from "./meal-planner/types";
+
 // The answers a user gives. Kept in memory only, never sent or stored.
-export type Stage = "FIRST" | "SECOND" | "THIRD" | "UNKNOWN";
-export type Budget = "TIGHT" | "MODERATE" | "COMFORTABLE";
-export type Allergy =
-  | "GROUNDNUT"
-  | "EGG"
-  | "FISH"
-  | "SHELLFISH"
-  | "MILK"
-  | "SOY"
-  | "WHEAT"
-  | "PORK";
+export type Stage = TrimesterInput;
+export type Budget = BudgetTier;
+export type Allergy = Exclusion;
 
 export type PlanForm = {
   hasCondition: boolean | null;
