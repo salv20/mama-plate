@@ -96,10 +96,6 @@ export function PlanResult({
         })}
       </motion.ul>
 
-      <div className="mt-10">
-        <AvoidPanel items={avoidItems} />
-      </div>
-
       <div className="mt-10 flex flex-wrap items-center gap-3">
         <CopyButton text={formatPlanAsText(plan, avoidItems)} />
         <Button variant="secondary" size="lg" onClick={shuffleAll}>
@@ -111,6 +107,10 @@ export function PlanResult({
         </Button>
       </div>
 
+      <div className="mt-10">
+        <AvoidPanel items={avoidItems} />
+      </div>
+
       <p className="mt-6 text-sm">
         <Link
           href="/urgent-care"
@@ -119,7 +119,7 @@ export function PlanResult({
           When to see a clinician urgently
         </Link>
       </p>
-      <p className="mt-6 text-xs leading-relaxed text-muted">{DISCLAIMER}</p>
+      <p className="mt-2 text-xs leading-relaxed text-muted">{DISCLAIMER}</p>
     </div>
   );
 }

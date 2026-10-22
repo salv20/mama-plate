@@ -17,6 +17,30 @@ const meals = mealsJson as unknown as Meal[];
 const avoid = avoidJson as unknown as AvoidItem[];
 const sourceIds = (sourcesJson as unknown as Source[]).map((s) => s.id);
 
+describe("sources", () => {
+  const sources = sourcesJson as unknown as Source[];
+
+  it("lists at least one source with a unique id, https url and year", () => {
+    expect(sources.length).toBeGreaterThan(0);
+    expect(new Set(sources.map((s) => s.id)).size).toBe(sources.length);
+    for (const source of sources) {
+      expect(source.url.startsWith("https://")).toBe(true);
+      expect(source.year).toBeGreaterThan(2000);
+      expect(source.title.trim()).not.toBe("");
+      expect(source.publisher.trim()).not.toBe("");
+    }
+  });
+
+  it("never marks content approved without a human reviewer", () => {
+    for (const item of [...meals, ...avoid]) {
+      if (item.status === "APPROVED") {
+        expect(item.reviewedBy).toBeTruthy();
+        expect(item.sourceId).toBeTruthy();
+      }
+    }
+  });
+});
+
 describe("content data", () => {
   it("meals pass validation", () => {
     expect(validateMeals(meals, sourceIds)).toEqual([]);

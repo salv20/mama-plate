@@ -1,17 +1,45 @@
 import type { Tag } from "./meal-planner/types";
 import type { Allergy, Budget, Stage } from "./plan-form";
 
-export const STAGE_OPTIONS: { value: Stage; title: string; description: string }[] = [
-  { value: "FIRST", title: "First trimester", description: "Weeks 1 to 13" },
-  { value: "SECOND", title: "Second trimester", description: "Weeks 14 to 27" },
-  { value: "THIRD", title: "Third trimester", description: "Week 28 until birth" },
-  { value: "UNKNOWN", title: "I am not sure", description: "We will show meals that suit every stage" },
+export const STAGE_OPTIONS: {
+  value: Stage;
+  title: string;
+  description: string;
+}[] = [
+  { value: "FIRST", title: "First Trimester", description: "Weeks 1 to 13" },
+  { value: "SECOND", title: "Second Trimester", description: "Weeks 14 to 27" },
+  {
+    value: "THIRD",
+    title: "Third Trimester",
+    description: "Week 28 until birth",
+  },
+  {
+    value: "UNKNOWN",
+    title: "I am not sure",
+    description: "We will show meals that suit every stage",
+  },
 ];
 
-export const BUDGET_OPTIONS: { value: Budget; title: string; description: string }[] = [
-  { value: "TIGHT", title: "Tight", description: "Mostly staples like beans, yam, pap and seasonal fruit" },
-  { value: "MODERATE", title: "Moderate", description: "Staples plus eggs, fish or chicken some days" },
-  { value: "COMFORTABLE", title: "Comfortable", description: "More variety, including meat and dairy" },
+export const BUDGET_OPTIONS: {
+  value: Budget;
+  title: string;
+  description: string;
+}[] = [
+  {
+    value: "TIGHT",
+    title: "Tight",
+    description: "Mostly staples like beans, yam, pap and seasonal fruit",
+  },
+  {
+    value: "MODERATE",
+    title: "Moderate",
+    description: "Staples plus eggs, fish or chicken some days",
+  },
+  {
+    value: "COMFORTABLE",
+    title: "Comfortable",
+    description: "More variety, including meat and dairy",
+  },
 ];
 
 export const ALLERGY_OPTIONS: { value: Allergy; label: string }[] = [
@@ -38,6 +66,8 @@ export const TAG_LABELS: Record<Tag, string> = {
   IRON: "Iron",
   PROTEIN: "Protein",
   CALCIUM: "Calcium",
+  ZINC: "Zinc",
+  VITAMIN_A: "Vitamin A",
   FIBRE: "Fibre",
   VITAMIN_C: "Vitamin C",
   VEGETABLE: "Vegetable",

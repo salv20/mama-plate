@@ -38,8 +38,8 @@
   {
     "id": "limit-caffeine",
     "group": "LIMIT",
-    "text": "Caffeine from tea, coffee, cola and energy drinks. Ask your clinician how much is safe for you.",
-    "sourceId": null,
+    "text": "Caffeine from tea, coffee, cola and energy drinks. WHO advises lowering your intake if you have more than 300 mg of caffeine a day. Ask your clinician how much is safe for you.",
+    "sourceId": "who-anc-2016",
     "reviewedBy": null,
     "reviewedAt": null,
     "status": "DRAFT"
@@ -58,6 +58,15 @@
     "group": "LIMIT",
     "text": "Herbal mixtures and traditional concoctions. Check with your clinician before taking any.",
     "sourceId": null,
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "status": "DRAFT"
+  },
+  {
+    "id": "limit-vitamin-a-supplements",
+    "group": "LIMIT",
+    "text": "Vitamin A capsules or extra vitamin A supplements. They are not recommended for pregnant women unless your clinician prescribes them. Choose vitamin A foods instead.",
+    "sourceId": "fmoh-mndc-2021",
     "reviewedBy": null,
     "reviewedAt": null,
     "status": "DRAFT"

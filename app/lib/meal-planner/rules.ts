@@ -19,6 +19,21 @@ export const DAILY_RULES: DailyRule[] = [
     message: "No vitamin C food fit your choices today.",
   },
   {
+    id: "vitamin-a",
+    kind: "DAY_MIN",
+    tag: "VITAMIN_A",
+    min: 1,
+    message:
+      "No vitamin A food fit your choices today. Ask your clinician how to get enough vitamin A from food.",
+  },
+  {
+    id: "zinc",
+    kind: "DAY_MIN",
+    tag: "ZINC",
+    min: 1,
+    message: "No zinc-rich food fit your choices today. Ask your clinician about zinc.",
+  },
+  {
     id: "calcium",
     kind: "DAY_MIN",
     tag: "CALCIUM",

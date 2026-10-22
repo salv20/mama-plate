@@ -22,6 +22,8 @@ export const TAGS = [
   "IRON",
   "PROTEIN",
   "CALCIUM",
+  "ZINC",
+  "VITAMIN_A",
   "FIBRE",
   "VITAMIN_C",
   "VEGETABLE",

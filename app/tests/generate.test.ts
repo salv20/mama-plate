@@ -105,6 +105,26 @@ describe("hard filters on real data", () => {
   });
 });
 
+describe("micronutrient rules on real data", () => {
+  it("covers vitamin A and zinc on a tight budget with no exclusions", () => {
+    const input: PlannerInput = { ...baseInput, budget: "TIGHT" };
+    for (let seed = 1; seed <= 20; seed += 1) {
+      const plan = expectOk(generateDayPlan(input, realMeals, { seed }));
+      const unmet = plan.unmetRules.map((r) => r.id);
+      expect(unmet).not.toContain("vitamin-a");
+      expect(unmet).not.toContain("zinc");
+    }
+  });
+
+  it("tags only meals that name a vitamin A or zinc food", () => {
+    for (const meal of realMeals) {
+      if (meal.tags.includes("ZINC") || meal.tags.includes("VITAMIN_A")) {
+        expect(meal.sourceId).not.toBeNull();
+      }
+    }
+  });
+});
+
 describe("determinism", () => {
   it("gives the same plan for the same seed", () => {
     const a = generateDayPlan(baseInput, realMeals, { seed: 42 });

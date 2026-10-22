@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": "who-anc-2016",
+    "title": "WHO recommendations on antenatal care for a positive pregnancy experience",
+    "publisher": "World Health Organization",
+    "url": "https://www.who.int/publications/i/item/9789241549912",
+    "year": 2016
+  },
+  {
+    "id": "fmoh-mndc-2013",
+    "title": "National Guidelines on Micronutrient Deficiencies Control in Nigeria",
+    "publisher": "Federal Ministry of Health, Nigeria",
+    "url": "https://reliefweb.int/report/nigeria/national-guidelines-micronutrient-deficiencies-control-nigeria",
+    "year": 2013
+  },
+  {
+    "id": "fmoh-mndc-2021",
+    "title": "National Guidelines for the Prevention and Control of Micronutrient Deficiencies in Nigeria",
+    "publisher": "Federal Ministry of Health, Nigeria",
+    "url": "https://nationalqoc.fmohconnect.gov.ng/wp-content/uploads/2023/07/2021-MNDC-Guidelines.pdf",
+    "year": 2021
+  }
+]
