@@ -40,9 +40,9 @@
     "group": "LIMIT",
     "text": "Caffeine from tea, coffee, cola and energy drinks. WHO advises lowering your intake if you have more than 300 mg of caffeine a day. Ask your clinician how much is safe for you.",
     "sourceId": "who-anc-2016",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "limit-high-mercury-fish",
@@ -67,8 +67,8 @@
     "group": "LIMIT",
     "text": "Vitamin A capsules or extra vitamin A supplements. They are not recommended for pregnant women unless your clinician prescribes them. Choose vitamin A foods instead.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   }
 ]

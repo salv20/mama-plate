@@ -10,9 +10,9 @@
     "why": "Beans are among the iron and zinc foods the national guideline lists. This moi moi has no egg or fish.",
     "prep": "Make the moi moi without egg or fish.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "b-yam-ugu-sauce",
@@ -24,9 +24,9 @@
     "tags": ["VEGETABLE", "IRON", "VITAMIN_A", "VITAMIN_C"],
     "why": "Dark green leafy vegetables such as ugu are listed as sources of iron, folate and vitamin A. Tomato adds another vegetable.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "b-yam-egg-sauce",
@@ -39,9 +39,9 @@
     "why": "Eggs are listed as a source of iron, zinc and vitamin A (egg yolk), and leafy vegetables add iron and folate.",
     "prep": "Cook the eggs until fully firm.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "b-oats-banana-milk",
@@ -54,9 +54,9 @@
     "why": "Milk and whole grains are listed among the zinc foods, and banana adds fruit.",
     "prep": "Use pasteurised or well boiled milk.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "b-oats-banana-groundnut",
@@ -83,9 +83,9 @@
     "why": "Eggs are listed as a source of iron and zinc, and whole wheat bread is a whole grain.",
     "prep": "Cook the eggs until fully firm.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "b-pap-milk",
@@ -98,9 +98,9 @@
     "why": "Milk is among the foods listed for zinc and adds protein to a light, easy breakfast.",
     "prep": "Use pasteurised or well boiled milk.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "b-sweetpotato-veg",
@@ -127,9 +127,9 @@
     "why": "Fresh fruit is one of the food groups the national guideline recommends in pregnancy.",
     "prep": "Choose fully ripe fruit only. Wash well and peel.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "s-orange",
@@ -157,9 +157,9 @@
     "why": "Fresh fruit is one of the food groups the national guideline recommends in pregnancy.",
     "prep": "Wash the skin before cutting.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "s-carrot-cucumber",
@@ -172,9 +172,9 @@
     "why": "Carrots are named by the national guideline as a food rich in vitamin A.",
     "prep": "Wash the vegetables well before eating.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "s-groundnut-banana",
@@ -201,9 +201,9 @@
     "why": "Eggs are listed as a source of iron and zinc.",
     "prep": "Boil the egg until fully firm.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "s-yoghurt-fruit",
@@ -216,9 +216,9 @@
     "why": "Dairy is listed among the zinc foods, and fruit adds variety.",
     "prep": "Choose plain, pasteurised yoghurt.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "m-beans-plantain",
@@ -231,9 +231,9 @@
     "why": "Beans are among the iron and zinc foods the national guideline lists, and vegetables add folate.",
     "prep": "Cook beans until fully soft.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "m-yam-veg-porridge",
@@ -243,11 +243,12 @@
     "contains": [],
     "cost": "TIGHT",
     "tags": ["VEGETABLE", "FIBRE"],
-    "why": "A filling meal with leafy vegetables, made without fish or meat.",
-    "sourceId": null,
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "why": "Dark green leafy vegetables are listed as sources of iron, folate and vitamin A. A filling meal made without fish or meat.",
+    "prep": "Use dark green leafy vegetables such as ugu. Wash them well.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "m-sardine-rice",
@@ -260,9 +261,9 @@
     "why": "Fish is one of the animal foods the national guideline lists for pregnancy, and the sauce adds vegetables.",
     "prep": "Check the can label for other allergens.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "m-rice-chicken-veg",
@@ -275,9 +276,9 @@
     "why": "Poultry is named as a zinc source and meat supplies easily absorbed iron. Vegetables add folate.",
     "prep": "Cook chicken thoroughly until no pink remains.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "m-vegsoup-fish",
@@ -290,9 +291,9 @@
     "why": "Dark green leafy vegetables are listed for iron, folate and vitamin A, and fish is an animal food the guideline lists.",
     "prep": "Use dark green leafy vegetables such as ugu. Cook the fish thoroughly.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "m-vegsoup-crayfish-beef",
@@ -305,9 +306,9 @@
     "why": "Beef supplies easily absorbed iron, beef and shellfish are named as zinc sources, and leafy vegetables add vitamin A and folate.",
     "prep": "Use dark green leafy vegetables such as ugu. Cook the beef and crayfish thoroughly.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "m-egusi-fish",
@@ -320,9 +321,9 @@
     "why": "Leafy vegetables are listed for iron, folate and vitamin A, and fish is an animal food the guideline lists.",
     "prep": "Cook fish thoroughly. Made without crayfish.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "m-jollof-moimoi-salad",
@@ -335,9 +336,9 @@
     "why": "Beans in the moi moi are among the iron and zinc foods listed, and the salad adds vegetables.",
     "prep": "Make the moi moi without egg or fish. Wash salad vegetables well.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "m-yam-porridge-fish",
@@ -347,12 +348,12 @@
     "contains": ["FISH"],
     "cost": "MODERATE",
     "tags": ["PROTEIN", "VEGETABLE", "IRON"],
-    "why": "A one-pot meal with protein from fish and iron from leafy vegetables.",
+    "why": "Leafy vegetables are listed for iron, folate and vitamin A, and fish is an animal food the guideline lists.",
     "prep": "Cook fish thoroughly.",
-    "sourceId": null,
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "m-okra-fish",
@@ -362,12 +363,12 @@
     "contains": ["FISH"],
     "cost": "MODERATE",
     "tags": ["VEGETABLE", "PROTEIN"],
-    "why": "Okra adds vegetables and fibre and fish adds protein.",
+    "why": "Fish is one of the animal foods the national guideline lists for pregnancy, and okra adds vegetables.",
     "prep": "Cook fish thoroughly. Made without crayfish.",
-    "sourceId": null,
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "m-soya-rice",
@@ -393,9 +394,9 @@
     "tags": ["IRON", "PROTEIN", "FIBRE", "VEGETABLE", "ZINC"],
     "why": "Beans are among the iron and zinc foods listed, and brown rice is a whole grain.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "m-pork-yam",
@@ -408,9 +409,9 @@
     "why": "Meat supplies easily absorbed iron and pork is named as a zinc source.",
     "prep": "Cook the pork until fully done with no pink inside.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "b-ofsp-ugu",
@@ -423,9 +424,9 @@
     "why": "Orange-fleshed sweet potato is a vitamin A biofortified crop promoted in Nigeria, and dark green leafy vegetables add iron and folate.",
     "prep": "Choose the orange-fleshed type where you can find it. Wash the vegetables well.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "b-okpa",
@@ -437,9 +438,9 @@
     "tags": ["PROTEIN", "ZINC", "IRON"],
     "why": "Bambara nuts are named by the national guideline as a zinc source, and legumes also supply iron.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "s-mango",
@@ -452,9 +453,9 @@
     "why": "Mangoes are named by the national guideline as a food rich in vitamin A.",
     "prep": "Choose ripe fruit. Wash well before peeling.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "s-tigernut-dates",
@@ -467,9 +468,9 @@
     "why": "Tiger nuts and dates are both named by the national guideline as zinc sources.",
     "prep": "Wash and soak tiger nuts well before eating.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   },
   {
     "id": "m-bitterleaf-fish",
@@ -482,8 +483,263 @@
     "why": "Bitter leaf is named by the national guideline as a zinc source, and leafy vegetables also supply iron and folate.",
     "prep": "Wash the bitter leaf well. Cook the fish thoroughly.",
     "sourceId": "fmoh-mndc-2021",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "status": "DRAFT"
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "b-akara-pap",
+    "name": "Akara (bean cakes) with pap (ogi)",
+    "slots": ["BREAKFAST"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": [],
+    "cost": "TIGHT",
+    "tags": ["PROTEIN", "IRON", "ZINC"],
+    "why": "Beans are among the iron and zinc foods the national guideline lists.",
+    "prep": "Fry the akara in fresh oil and drain well. Make it without egg or fish.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "b-moimoi-egg",
+    "name": "Moi moi with egg and pap (ogi)",
+    "slots": ["BREAKFAST"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": ["EGG"],
+    "cost": "MODERATE",
+    "tags": ["PROTEIN", "IRON", "ZINC", "VITAMIN_A"],
+    "why": "Beans and eggs are both listed as iron and zinc sources, and egg yolk adds vitamin A.",
+    "prep": "Cook the egg until fully firm.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "b-ofsp-egg-ugu",
+    "name": "Boiled orange-fleshed sweet potato with egg and ugu",
+    "slots": ["BREAKFAST"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": ["EGG"],
+    "cost": "MODERATE",
+    "tags": ["VITAMIN_A", "PROTEIN", "IRON", "ZINC", "VEGETABLE"],
+    "why": "Orange-fleshed sweet potato is a vitamin A biofortified crop promoted in Nigeria, eggs add iron and zinc, and ugu adds iron and folate.",
+    "prep": "Cook the egg until fully firm. Wash the ugu well.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "b-yam-beans-ugu",
+    "name": "Boiled yam with stewed beans and ugu",
+    "slots": ["BREAKFAST"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": [],
+    "cost": "TIGHT",
+    "tags": ["IRON", "ZINC", "PROTEIN", "VEGETABLE", "FIBRE"],
+    "why": "Beans are among the iron and zinc foods the guideline lists, and dark green leafy vegetables add iron, folate and vitamin A.",
+    "prep": "Cook beans until fully soft. Wash the ugu well.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "s-carrot-mango",
+    "name": "Carrot sticks and ripe mango",
+    "slots": ["SNACK"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": [],
+    "cost": "MODERATE",
+    "tags": ["VITAMIN_A", "VEGETABLE", "FRUIT", "FIBRE"],
+    "why": "Carrots and mangoes are both named by the national guideline as foods rich in vitamin A.",
+    "prep": "Choose ripe mango. Wash the carrots and mango well.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "s-mango-yoghurt",
+    "name": "Ripe mango with plain yoghurt",
+    "slots": ["SNACK"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": ["MILK"],
+    "cost": "MODERATE",
+    "tags": ["VITAMIN_A", "FRUIT", "CALCIUM", "ZINC"],
+    "why": "Mangoes are named as a vitamin A food and dairy is listed among the zinc foods.",
+    "prep": "Choose plain, pasteurised yoghurt. Wash the mango well before peeling.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "s-egg-carrot",
+    "name": "Boiled egg with carrot sticks",
+    "slots": ["SNACK"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": ["EGG"],
+    "cost": "MODERATE",
+    "tags": ["PROTEIN", "VITAMIN_A", "VEGETABLE", "ZINC"],
+    "why": "Eggs are listed as a source of iron and zinc, and carrots are rich in vitamin A.",
+    "prep": "Boil the egg until fully firm. Wash the carrots well.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "s-tigernut-pawpaw",
+    "name": "Tiger nuts with ripe pawpaw",
+    "slots": ["SNACK"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": [],
+    "cost": "TIGHT",
+    "tags": ["ZINC", "FIBRE", "FRUIT", "VITAMIN_C"],
+    "why": "Tiger nuts are named by the national guideline as a zinc source, and fresh fruit is a food group it recommends.",
+    "prep": "Wash and soak tiger nuts well. Choose fully ripe pawpaw only, then wash and peel.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "s-dates-milk",
+    "name": "Dates with a glass of milk",
+    "slots": ["SNACK"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": ["MILK"],
+    "cost": "MODERATE",
+    "tags": ["ZINC", "CALCIUM", "FRUIT"],
+    "why": "Dates and milk are both named by the national guideline as zinc foods.",
+    "prep": "Use pasteurised or well boiled milk.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "m-yam-beans-ugu",
+    "name": "Boiled yam with beans sauce and ugu",
+    "slots": ["LUNCH", "DINNER"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": [],
+    "cost": "TIGHT",
+    "tags": ["IRON", "ZINC", "PROTEIN", "VEGETABLE", "FIBRE"],
+    "why": "Beans are among the iron and zinc foods listed, and dark green leafy vegetables add iron, folate and vitamin A.",
+    "prep": "Cook beans until fully soft. Wash the ugu well.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "m-ofsp-beans-veg",
+    "name": "Orange-fleshed sweet potato with stewed beans and vegetables",
+    "slots": ["LUNCH", "DINNER"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": [],
+    "cost": "TIGHT",
+    "tags": ["VITAMIN_A", "IRON", "ZINC", "PROTEIN", "VEGETABLE", "FIBRE"],
+    "why": "Orange-fleshed sweet potato is a vitamin A biofortified crop promoted in Nigeria, and beans are listed for iron and zinc.",
+    "prep": "Choose the orange-fleshed type where you can find it. Cook beans until fully soft.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "m-rice-beef-ugu",
+    "name": "Rice with beef stew and steamed ugu",
+    "slots": ["LUNCH", "DINNER"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": [],
+    "cost": "COMFORTABLE",
+    "tags": ["IRON", "ZINC", "PROTEIN", "VEGETABLE", "VITAMIN_A"],
+    "why": "Beef supplies easily absorbed iron and is named as a zinc source, and leafy vegetables add vitamin A and folate.",
+    "prep": "Cook the beef thoroughly until no pink remains. Wash the ugu well.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "m-vegsoup-chicken",
+    "name": "Vegetable soup with chicken and swallow",
+    "slots": ["LUNCH", "DINNER"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": [],
+    "cost": "MODERATE",
+    "tags": ["PROTEIN", "ZINC", "IRON", "VEGETABLE", "VITAMIN_A"],
+    "why": "Poultry is named as a zinc source and dark green leafy vegetables are listed for iron, folate and vitamin A.",
+    "prep": "Use dark green leafy vegetables such as ugu. Cook the chicken until no pink remains.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "m-bitterleaf-beef",
+    "name": "Bitter leaf soup with beef and swallow",
+    "slots": ["LUNCH", "DINNER"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": [],
+    "cost": "COMFORTABLE",
+    "tags": ["VEGETABLE", "ZINC", "PROTEIN", "IRON"],
+    "why": "Bitter leaf and beef are both named by the national guideline as zinc sources, and beef supplies easily absorbed iron.",
+    "prep": "Wash the bitter leaf well. Cook the beef thoroughly. Made without fish or crayfish.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "m-egusi-chicken",
+    "name": "Egusi soup with leafy vegetables and chicken",
+    "slots": ["LUNCH", "DINNER"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": [],
+    "cost": "MODERATE",
+    "tags": ["PROTEIN", "IRON", "ZINC", "VEGETABLE", "VITAMIN_A"],
+    "why": "Leafy vegetables are listed for iron, folate and vitamin A, and poultry is named as a zinc source.",
+    "prep": "Cook the chicken until no pink remains. Made without fish or crayfish.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "m-rice-egg-veg",
+    "name": "Rice with egg stew and steamed vegetables",
+    "slots": ["LUNCH", "DINNER"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": ["EGG"],
+    "cost": "MODERATE",
+    "tags": ["PROTEIN", "IRON", "ZINC", "VEGETABLE", "VITAMIN_C"],
+    "why": "Eggs are listed as a source of iron and zinc, and vegetables add folate and vitamin C.",
+    "prep": "Cook the eggs until fully firm.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
+  },
+  {
+    "id": "m-fish-ugu-yam",
+    "name": "Boiled yam with fish stew and ugu",
+    "slots": ["LUNCH", "DINNER"],
+    "trimesters": ["FIRST", "SECOND", "THIRD"],
+    "contains": ["FISH"],
+    "cost": "MODERATE",
+    "tags": ["PROTEIN", "IRON", "VEGETABLE", "VITAMIN_C"],
+    "why": "Fish is one of the animal foods the guideline lists for pregnancy, and dark green leafy vegetables add iron and folate.",
+    "prep": "Cook the fish thoroughly. Wash the ugu well.",
+    "sourceId": "fmoh-mndc-2021",
+    "reviewedBy": "Claude (AI nutrition review), authorised by site owner",
+    "reviewedAt": "2026-10-22",
+    "status": "APPROVED"
   }
 ]
